@@ -1,0 +1,49 @@
+/* Estilização do corpo da página*/
+body{
+    background-color: rgb(158, 158, 222);
+}
+
+/* Aumentar a font apenas do h1 */
+h1{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+/* Mudando cor e fonte de titulos e subtitulos */
+h1, h2 ,h3{
+    color: white;
+    font-family: cause;
+}
+
+/* Alinhamento no centro do h1 */
+#topo {
+    text-align: center;
+}
+
+/* Definindo box-model para todas as sections, utilizando por id, class, e tag */
+.listas, #links, #imagem, footer{
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Retirando underline dos links */
+a{
+    text-decoration: none;
+}
+
+/* Adicionando hover para links (assim que passar o mouse por cima, muda de cor */
+a:hover{
+    color: grey;
+}
+
+/* Lista não ordenada sendo exibida com ciculo, e não esfera */
+ul{
+    list-style-type: circle;
+}
+
+/* Lista ordenada exibida em numeros romanos */
+ol{
+    list-style-type: lower-roman;
+}
