@@ -1,0 +1,44 @@
+#tabela1 th{
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: orange;
+}
+
+#tabela1 td{
+    border: 1px solid black;
+    height: 200px;
+    text-align: center;
+}
+
+#tabela1 #intervalo{
+    height: 10px;
+    text-align: center;
+    background-color: orange;
+}
+
+#tabela1 td:first-child{
+    background-color: orange;
+}
+
+#tabela2 th{
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+#tabela2 td{
+    border: 1px solid black;
+    height: 50px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+#tabela2 td:first-child{
+    background-color: blue;
+    color: white;
+}
