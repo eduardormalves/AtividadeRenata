@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo Alves | Início</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho com menu de navegação padronizado -->
+    <header class="topo">
+        <nav class="navbar container">
+            <a href="index.html" class="logo">Eduardo</a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="menu" id="menu">
+                <li><a href="index.html" class="ativo">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="experiencias.html">Experiências</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção principal de apresentação -->
+    <main>
+        <section class="hero" id="inicio">
+            <div class="container hero-conteudo">
+                <img src="selfie.jpeg" alt="Foto de Eduardo Alves" class="foto-perfil">
+                <h1 class="anima-cima">Olá, eu sou <span class="destaque">Eduardo Alves</span></h1>
+                <p class="subtitle anima-cima">Programador <span id="cargo-dinamico">Full-Stack</span></p>
+                <p class="resumo anima-cima">
+                    Com foco em desenvolvimento e inovação, busco consolidar minha carreira
+                    como programador full stack. Comprometido com aprendizado contínuo, estou
+                    sempre disposto a colaborar, compartilhar conhecimentos e crescer
+                    profissionalmente em ambientes desafiadores.
+                </p>
+
+                <div class="botoes anima-cima">
+                    <a href="experiencias.html" class="btn btn-primario">Ver experiências</a>
+                    <a href="contato.html" class="btn btn-secundario">Entre em contato</a>
+                </div>
+
+                <ul class="redes">
+                    <li><a href="https://github.com/eduardormalves" target="_blank" rel="noopener">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/eduardormalves" target="_blank" rel="noopener">LinkedIn</a></li>
+                    <li><a href="mailto:eduardormalves@gmail.com">Gmail</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Destaques rápidos -->
+        <section class="container destaques">
+            <article class="card-destaque">
+                <h2>👨‍💻 Desenvolvedor</h2>
+                <p>Atuo com desenvolvimento web full-stack, do front ao back-end.</p>
+            </article>
+            <article class="card-destaque">
+                <h2>🎓 Estudante</h2>
+                <p>Cursando Engenharia de Software, sempre em aprendizado contínuo.</p>
+            </article>
+            <article class="card-destaque">
+                <h2>🚀 Em evolução</h2>
+                <p>Buscando novos desafios e crescimento profissional constante.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <p>&copy; <span id="ano"></span> Eduardo Alves — Portfólio</p>
+            <ul class="redes redes-rodape">
+                <li><a href="https://github.com/eduardormalves" target="_blank" rel="noopener">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/eduardormalves" target="_blank" rel="noopener">LinkedIn</a></li>
+                <li><a href="mailto:eduardormalves@gmail.com">Gmail</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <button id="botaoTopo" title="Voltar ao topo">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
